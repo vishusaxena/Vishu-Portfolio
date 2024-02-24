@@ -1,12 +1,13 @@
-import Projects from "./components/Projects";
+import Contacts from "./components/Contacts";
 import NavBar from "./components/NavBar";
+
 
 
 function App() {
   return (
     <>
     <NavBar/>
-    <Projects/>
+   <Contacts/>
     </>
   );
 }
