@@ -7,10 +7,10 @@ import quiz from './quiz.jpg'
 export default function Projects() {
     return (
         <>
-        <div className='container'>
+        <div className='container w-40' >
         <div className=" row row-cols-1 row-cols-md-2 g-4">
   <div className="col">
-    <div className="card shadow p-3 mb-5 border-primary">
+    <div className="card  shadow p-3 mb-5 border-primary">
       <img src={logo} className="card-img-top" alt="Newsify"/>
       <div className="card-body">
         <h5 className="card-title">Newsify</h5>
