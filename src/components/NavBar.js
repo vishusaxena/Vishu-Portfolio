@@ -4,7 +4,7 @@ import './Navbar.css';
 function NavBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg  custom-navbar shadow p-3 mb-5 ">
+      <nav className="navbar navbar-expand-lg  fixed-top custom-navbar shadow p-3 mb-5 ">
   <div className="container-fluid">
     <a className="navbar-brand mx-3 fw-bold" href="\">Vishu Saxena</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

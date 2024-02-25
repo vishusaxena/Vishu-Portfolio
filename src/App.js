@@ -1,5 +1,6 @@
-import Contacts from "./components/Contacts";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
+
 
 
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
     <NavBar/>
-   <Contacts/>
+   <Projects/>
     </>
   );
 }

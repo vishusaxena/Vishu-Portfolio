@@ -7,8 +7,9 @@ import quiz from './quiz.jpg'
 export default function Projects() {
     return (
         <>
-        <div className='container w-40' >
-        <div className=" row row-cols-1 row-cols-md-2 g-4">
+        <div className='container w-40' style={{marginTop:"100px"}}>
+          <h1 className='text-center'>My Projects</h1>
+        <div className=" row row-cols-1 row-cols-md-2 g-4 my-3">
   <div className="col">
     <div className="card  shadow p-3 mb-5 border-primary">
       <img src={logo} className="card-img-top" alt="Newsify"/>
