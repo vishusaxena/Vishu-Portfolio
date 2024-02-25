@@ -5,7 +5,7 @@ export default function About(){
 
     return(
         <>
-        <div className='w-50 custom-container ' >
+        <div className='w-50 custom-container ' style={{marginTop:"150px"}}>
            <h1>Hi &#x1F590;, I am </h1>
            <h1>Vishu Saxena</h1>
            <h4>
