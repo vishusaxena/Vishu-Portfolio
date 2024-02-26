@@ -23,7 +23,7 @@ I am  a <b>Web Developer and Competitive coding enthusiast</b>
         <button type="button" className="btn btn-lg btn-outline-primary mx-3">Let's Connect!</button>
        
         </div>
-        <div className='container w-50 ' style={{marginTop:"170px ",marginLeft:"120px"}}>
+        <div className='container w-50 ' style={{marginTop:"170px ",marginLeft:"220px"}}>
         <img  alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
 
         </div>
