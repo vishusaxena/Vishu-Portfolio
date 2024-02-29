@@ -4,7 +4,7 @@ import Skillitem from './Skillitem';
 export default function Skills() {
     return (
         <>
-            <div className='container w-60' style={{ marginTop: "100px" }}>
+            <div className='container w-60' style={{ marginTop: "100px" }} id='skill'>
             <h1 className='text-center'>My Skills</h1>
              <p  className='text-center'>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere maiores unde tempore expedita. Fugit dolores ea molestiae magnam eum dolor tempore nulla! Perferendis possimus vero pariatur architecto qui? Maiores nemo corporis libero vitae suscipit et ipsam adipisci sunt ut non harum amet illum dolores earum ad aut mollitia, numquam praesentium!
 </p>

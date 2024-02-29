@@ -5,7 +5,7 @@ import React from 'react'
 export default function Projects() {
     return (
         <>
-        <div className='container w-40' style={{marginTop:"100px"}}>
+        <div className='container w-40' style={{marginTop:"100px"}} id='project'>
           <h1 className='text-center'>My Projects</h1>
         <div className=" row row-cols-1 row-cols-md-2 g-4 my-3">
   <div className="col">

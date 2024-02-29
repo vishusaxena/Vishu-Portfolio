@@ -1,11 +1,11 @@
 import React from 'react'
 import './About.css';
 
-export default function About(){
+export default function About(props){
 
     return(
         <>
-        <div className=' d-flex sm:d-block'>
+        <div className=' d-flex sm:d-block' id='about'> 
         
         <div className='w-50 custom-container ' style={{marginTop:"150px"}}>
         
@@ -20,13 +20,14 @@ I am  a <b>Web Developer and Competitive coding enthusiast</b>
         
         
         <a href="# " download className ="btn btn-outline-primary btn-lg " role="button" aria-pressed="true">Download CV</a>
-        <button type="button" className="btn btn-lg btn-outline-primary mx-3">Let's Connect!</button>
+        <button type="button" className="btn btn-lg btn-outline-primary mx-3" onClick={() => props.click('contact')}>Let's Connect!</button>
        
         </div>
         <div className='container w-50 ' style={{marginTop:"170px ",marginLeft:"220px"}}>
         <img  alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
 
         </div>
+        <hr/>
         </div>
         
         </>    );
