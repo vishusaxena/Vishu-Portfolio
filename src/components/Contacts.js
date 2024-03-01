@@ -1,12 +1,12 @@
 import React from 'react'
 import './contact.css'
-export default function Contacts() {
+export default function Contacts(props) {
   return (
     <div className='container custom-form ' style={{ marginTop: "100px" ,marginBottom:"50px" }} id='contact'>
         <h1 className='text-center'>Let's Connect!</h1>
       <form>
-      <div class="form-floating  my-3 ">
-  <input type="text" class="form-control" id="floatingInput" placeholder="Fullname"/>
+      <div class={` form-floating text-${props.mode} my-3 `}>
+  <input type="text" class="form-control" id="floatingInput" placeholder="Fullname" style={{backgroundColor:props.mode==="dark" ? 'black':'white' }}/>
   <label for="floatingInput">Fullname</label>
 </div>
   

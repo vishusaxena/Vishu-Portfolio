@@ -45,14 +45,25 @@ function App() {
       });
     }
   };
+  const [ mode , setMode]=useState("white");
+  const toggle=()=>{
+    if(mode=='dark'){
+      setMode('white')
+      document.body.style.backgroundColor='white';
+    }
+    else{
+      setMode('dark')
+      document.body.style.backgroundColor='black';
+  }
+  }
   return (
     <div>
-      <NavBar click={handleNavClick}/>
-      <div id="about"><About isVisible={activeSection === 'about'} click={handleNavClick} /></div>
-      <div id="skill"><Skills isVisible={activeSection === 'skill'} /></div>
+      <NavBar click={handleNavClick} toggle={toggle} mode={mode}/>
+      <div id="about"><About isVisible={activeSection === 'about'} click={handleNavClick} mode={mode}/></div>
+      <div id="skill"><Skills isVisible={activeSection === 'skill'} mode={mode} /></div>
 
-      <div id="project"><Projects isVisible={activeSection === 'project'} /></div>
-      <div id="contact"><Contacts isVisible={activeSection === 'contact'} /></div>
+      <div id="project"><Projects isVisible={activeSection === 'project'} mode={mode}/></div>
+      <div id="contact"><Contacts isVisible={activeSection === 'contact'} mode={mode}/></div>
       <Footer/>
     </div>
   );

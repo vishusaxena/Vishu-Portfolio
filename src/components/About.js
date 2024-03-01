@@ -7,14 +7,14 @@ export default function About(props){
         <>
         <div className=' d-flex sm:d-block' id='about'> 
         
-        <div className='w-50 custom-container ' style={{marginTop:"150px"}}>
+        <div className='w-50 custom-container  ' style={{marginTop:"150px"}} >
         
-           <h1>Hi &#x1F590;, I am </h1>
-           <h1>Vishu Saxena</h1>
-           <h4>
+           <h1 style={{color:props.mode==="dark" ? 'white':'black' }}>Hi &#x1F590;, I am </h1>
+           <h1 style={{color:props.mode==="dark" ? 'white':'black' }}>Vishu Saxena</h1>
+           <h4 style={{color:props.mode==="dark" ? 'white':'black' }}>
 I am  a <b>Web Developer and Competitive coding enthusiast</b>
            </h4>
-        <p>
+        <p style={{color:props.mode==="dark" ? 'white':'black' }}>
         I am an undergrad and pursuing B.Tech in Computer Science and Engineering from SRMS Institute.I have good knowledge about C++,Python, Problem solving and Web Development fundamentals as I has build projects related to it.
         </p>
         
