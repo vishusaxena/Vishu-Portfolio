@@ -1,7 +1,9 @@
 import React from 'react'
+import  { useState } from 'react';
 
 import './Navbar.css';
 function NavBar(props) {
+  const {mode,setmode}=useState('dark');
   return (
     <div>
       <nav className="navbar navbar-expand-lg  fixed-top custom-navbar shadow p-3 mb-5 ">
@@ -27,7 +29,9 @@ function NavBar(props) {
         <li className="nav-item mx-3">
         <button  type="a" className="btn btn-primary" >Download CV</button >
 
+
         </li>
+        
       </ul>
     </div>
   </div>

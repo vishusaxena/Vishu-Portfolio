@@ -13,6 +13,7 @@ export default function Projects() {
       <div className="card-body">
         <h5 className="card-title">Newsify</h5>
         <p className="card-text">"Newsify is a dynamic React application designed to keep users informed with the latest news headlines. Leveraging API integration, Newsify fetches real-time news data from trusted sources, presenting it in a user-friendly interface.</p>
+        
         <a href="https://github.com/vishusaxena/Newsify.git"  target='_blank' className="btn btn-primary">Go to Github</a>
 
       </div>

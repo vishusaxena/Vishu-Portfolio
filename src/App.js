@@ -4,6 +4,8 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import React, { useState, useEffect } from 'react';
+import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -51,6 +53,7 @@ function App() {
 
       <div id="project"><Projects isVisible={activeSection === 'project'} /></div>
       <div id="contact"><Contacts isVisible={activeSection === 'contact'} /></div>
+      <Footer/>
     </div>
   );
 }
