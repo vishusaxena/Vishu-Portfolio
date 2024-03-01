@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 export default function Contacts() {
   return (
-    <div className='container custom-form ' style={{ marginTop: "100px" ,marginBottom:"20px" }} id='contact'>
+    <div className='container custom-form ' style={{ marginTop: "100px" ,marginBottom:"50px" }} id='contact'>
         <h1 className='text-center'>Let's Connect!</h1>
       <form>
       <div class="form-floating  my-3 ">

@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import React, { useState, useEffect } from 'react';
-import Footer from "./components/Footer";
+import Footer from './components/Footer';
 
 
 
