@@ -64,7 +64,7 @@ function App() {
 
       <div id="project"><Projects isVisible={activeSection === 'project'} mode={mode}/></div>
       <div id="contact"><Contacts isVisible={activeSection === 'contact'} mode={mode}/></div>
-      <Footer/>
+      <Footer mode={mode}/>
     </div>
   );
 }

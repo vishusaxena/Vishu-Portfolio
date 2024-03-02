@@ -4,7 +4,7 @@ export default function Skillitem(props) {
   return (
     <div>
        <div className="col mb-4">
-                        <div className="card border border-white" > 
+                        <div className="card border border-white" style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black' }} > 
                             <a href={props.url} target="_blank" rel="noreferrer"> <img className='m-2 'src={props.imageUrl} alt="c" width="60" height="60" /> </a>
                             <div className="card-body">
                                 <h5 className="card-title" >{props.skill}</h5>

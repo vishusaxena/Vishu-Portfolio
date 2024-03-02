@@ -2,15 +2,15 @@ import React from 'react'
 
 
 
-export default function Projects() {
+export default function Projects(props) {
     return (
         <>
         <div className='container w-40' style={{marginTop:"100px"}} id='project'>
-          <h1 className='text-center'>My Projects</h1>
+          <h1 className='text-center' style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black' }}>My Projects</h1>
         <div className=" row row-cols-1 row-cols-md-2 g-4 my-3">
   <div className="col">
-    <div className="card  shadow p-3 mb-5 border-primary">
-      <div className="card-body">
+    <div className="card  shadow p-3 mb-5 border-primary" style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black' }}>
+      <div className="card-body" >
         <h5 className="card-title">Newsify</h5>
         <p className="card-text">"Newsify is a dynamic React application designed to keep users informed with the latest news headlines. Leveraging API integration, Newsify fetches real-time news data from trusted sources, presenting it in a user-friendly interface.</p>
         
@@ -20,7 +20,7 @@ export default function Projects() {
     </div>
   </div>
   <div className="col">
-    <div className="card shadow p-3 mb-5 border-primary">
+    <div className="card shadow p-3 mb-5 border-primary" style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black' }}>
       <div className="card-body">
         <h5 className="card-title">TextonTrack</h5>
         <p className="card-text"> "TextonTrack" is a versatile React project designed to streamline text manipulation tasks with ease. Whether you're looking to convert text to uppercase or lowercase, count characters or words, this app has you covered. 
@@ -31,7 +31,7 @@ export default function Projects() {
     </div>
   </div>
   <div className="col">
-    <div className="card shadow p-3 mb-5 border-primary">
+    <div className="card shadow p-3 mb-5 border-primary" style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black' }}>
       <div className="card-body">
         <h5 className="card-title">TextFileManager</h5>
         <p className="card-text">"TextFileManager" is a C++ project designed to facilitate CRUD (Create, Read, Update, Delete) operations on text files. With TextFileManager, users can seamlessly manage text files, including tasks such as adding, viewing, updating, and deleting text entries within the files. </p>
@@ -41,7 +41,7 @@ export default function Projects() {
     </div>
   </div>
   <div className="col">
-    <div className="card shadow p-3 mb-5 border-primary">
+    <div className="card shadow p-3 mb-5 border-primary" style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black' }}>
       <div className="card-body">
         <h5 className="card-title">QuizLab</h5>
         <p className="card-text">"QuizLab" is your go-to destination for interactive quizzes on a wide range of technical and non-technical subjects. Developed with HTML, CSS, and JavaScript, QuizLab offers a dynamic and engaging platform for users to test their knowledge for the better future ahead.</p>
