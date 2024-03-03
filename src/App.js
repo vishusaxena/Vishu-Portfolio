@@ -21,7 +21,7 @@ function App() {
 
       const scrollPosition = window.scrollY + window.innerHeight;
 
-      if (scrollPosition < skillSection || scrollPosition==aboutSection) {
+      if (scrollPosition < skillSection || scrollPosition===aboutSection) {
         setActiveSection('about');
       } else if (scrollPosition < projectsSection) {
         setActiveSection('skill');
