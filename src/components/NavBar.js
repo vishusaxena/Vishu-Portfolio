@@ -27,7 +27,7 @@ function NavBar(props) {
           <button  className="nav-link btn " href="\"onClick={() => props.click('contact')} style={{color:props.mode==="dark" ? 'white':'black' }}>Contact Me</button >
         </li>
         <li className="nav-item mx-3">
-        <button  type="a" className="btn btn-primary" >Download CV</button >
+        <a href='Vishu_Resume.pdf' download type="a" className="btn btn-primary" >Download CV</a >
 
 
         </li>

@@ -14,7 +14,7 @@ export default function Contacts(props) {
 </div>
 
 <div class=" my-3">
-  <textarea class="form-control" id="floatingTextarea2"  placeholder='Message' style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black', height: "100px" }}></textarea>
+  <textarea class="form-control" id="floatingInput"  placeholder='Message' style={{backgroundColor:props.mode==="dark" ? 'black':'white' , color:props.mode==="dark" ? 'white':'black', height: "100px" }}></textarea>
 </div>
   <button type="submit" class="btn btn-primary container">Submit</button>
 </form>

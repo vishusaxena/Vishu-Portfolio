@@ -1,4 +1,8 @@
-.custom-form{
-    width:600px;
-    
+.custom-form {
+    width: 600px;
+
+}
+
+#floatingInput::-webkit-input-placeholder {
+    color: rgb(162, 65, 252);
 }

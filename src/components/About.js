@@ -5,7 +5,7 @@ export default function About(props){
       const [text]=useTypewriter({
          words:['Web Developer ', 'Competitive coder'],
          loop:{},
-         typeSpeed:150,
+         typeSpeed:120,
          deleteSpeed:80,
       });
     return(
@@ -27,7 +27,7 @@ export default function About(props){
         </p>
         
         
-        <a href="# " download className ="btn btn-outline-primary btn-lg " role="button" aria-pressed="true">Download CV</a>
+        <a href='Vishu_Resume.pdf' download className ="btn btn-outline-primary btn-lg " role="button" aria-pressed="true">Download CV</a>
         <button type="button" className="btn btn-lg btn-outline-primary mx-3" onClick={() => props.click('contact')}>Let's Connect!</button>
        
         </div>

@@ -4,7 +4,7 @@ import Skillitem from './Skillitem';
 export default function Skills(props) {
     return (
         <>
-            <div className='container w-60' style={{ marginTop: "100px" }} id='skill'>
+            <div className='container w-60' style={{ marginTop: "200px" }} id='skill'>
             <h1 className='text-center' style={{color:props.mode==="dark" ? 'white':'black' }}>My Skills</h1>
              <p  className='text-center'style={{color:props.mode==="dark" ? 'white':'black' }}> Your Journey to become a good and successfull developer in a industry is always being learning new skill or tech stack to survive in a industry . Skill is an important factor of a developer and during my journey till now i had learn  skills that covers my areas of interests.
 </p>
