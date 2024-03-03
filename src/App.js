@@ -21,7 +21,7 @@ function App() {
 
       const scrollPosition = window.scrollY + window.innerHeight;
 
-      if (scrollPosition < skillSection) {
+      if (scrollPosition < skillSection || scrollPosition==aboutSection) {
         setActiveSection('about');
       } else if (scrollPosition < projectsSection) {
         setActiveSection('skill');
@@ -47,7 +47,7 @@ function App() {
   };
   const [ mode , setMode]=useState("white");
   const toggle=()=>{
-    if(mode=='dark'){
+    if(mode==='dark'){
       setMode('white')
       document.body.style.backgroundColor='white';
     }
