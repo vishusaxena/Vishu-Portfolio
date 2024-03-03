@@ -31,7 +31,7 @@ function NavBar(props) {
 
 
         </li>
-        <button style={{width:"40px",height:"40px",border:"none",borderRadius:"50% "}} onClick={props.toggle}><i class="fa-solid fa-moon"></i></button>
+        <button style={{width:"40px",height:"40px",border:"none",borderRadius:"50% "}} onClick={props.toggle}><i className="fa-solid fa-moon"></i></button>
       </ul>
     </div>
   </div>
