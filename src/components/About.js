@@ -1,9 +1,15 @@
 import React from 'react'
 import './About.css';
-
+import {useTypewriter,Cursor} from 'react-simple-typewriter';
 export default function About(props){
-
+      const [text]=useTypewriter({
+         words:['Web Developer ', 'Competitive coder'],
+         loop:{},
+         typeSpeed:150,
+         deleteSpeed:80,
+      });
     return(
+
         <>
         <div className=' d-flex sm:d-block' id='about'> 
         
@@ -12,8 +18,10 @@ export default function About(props){
            <h1 style={{color:props.mode==="dark" ? 'white':'black' }}>Hi &#x1F590;, I am </h1>
            <h1 style={{color:props.mode==="dark" ? 'white':'black' }}>Vishu Saxena</h1>
            <h4 style={{color:props.mode==="dark" ? 'white':'black' }}>
-I am  a <b>Web Developer and Competitive coding enthusiast</b>
+            I am a <b style={{color:props.mode==="dark" ? 'Yellow':'blueviolet' }}>{text} <Cursor/></b>
+            
            </h4>
+           
         <p style={{color:props.mode==="dark" ? 'white':'black' }}>
         I am an undergrad and pursuing B.Tech in Computer Science and Engineering from SRMS Institute.I have good knowledge about C++,Python, Problem solving and Web Development fundamentals as I has build projects related to it.
         </p>

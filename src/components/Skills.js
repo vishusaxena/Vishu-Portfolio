@@ -6,7 +6,7 @@ export default function Skills(props) {
         <>
             <div className='container w-60' style={{ marginTop: "100px" }} id='skill'>
             <h1 className='text-center' style={{color:props.mode==="dark" ? 'white':'black' }}>My Skills</h1>
-             <p  className='text-center'style={{color:props.mode==="dark" ? 'white':'black' }}>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere maiores unde tempore expedita. Fugit dolores ea molestiae magnam eum dolor tempore nulla! Perferendis possimus vero pariatur architecto qui? Maiores nemo corporis libero vitae suscipit et ipsam adipisci sunt ut non harum amet illum dolores earum ad aut mollitia, numquam praesentium!
+             <p  className='text-center'style={{color:props.mode==="dark" ? 'white':'black' }}> Your Journey to become a good and successfull developer in a industry is always being learning new skill or tech stack to survive in a industry . Skill is an important factor of a developer and during my journey till now i had learn  skills that covers my areas of interests.
 </p>
                 <div className="row row-cols-1 row-cols-md-3 my-5">
                                            
